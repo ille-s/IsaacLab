@@ -53,9 +53,11 @@ _repo
 _build
 .lastformat
 
-# RL-Games
+# RL-Games (Modified to allow checkpoint tracking)
 **/runs/*
-**/logs/*
+**/logs/**
+!**/logs/**/
+!**/logs/**/*.pt
 **/recordings/*
 
 # Pre-Trained Checkpoints
